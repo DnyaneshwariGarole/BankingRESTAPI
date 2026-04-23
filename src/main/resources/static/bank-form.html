@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bank Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2 id="title">Add Bank</h2>
+
+<p id="msg"></p>
+
+<input type="hidden" id="id">
+
+<label>Name:</label>
+<input id="name"><br><br>
+
+<label>Code:</label>
+<input id="bankCode"><br><br>
+
+<label>Bank Type:</label>
+<select id="type">
+  <option value="">-- Select Type --</option>
+  <option value="National">National (Public Sector)</option>
+  <option value="Private">Private</option>
+  <option value="State">State Cooperative</option>
+  <option value="RegionalRural">Regional Rural (RRB)</option>
+  <option value="Foreign">Foreign</option>
+  <option value="SmallFinance">Small Finance</option>
+  <option value="Payments">Payments Bank</option>
+</select>
+<br>
+<br>
+
+<button type="button" onclick="saveBank()">Save</button>
+<button type="button" onclick="goHome()">Back</button>
+
+
+<script src="bank.js"></script>
+</body>
+</html>
