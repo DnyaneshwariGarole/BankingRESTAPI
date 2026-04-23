@@ -1,4 +1,4 @@
-# 💳 Banking REST API
+<img width="1898" height="966" alt="Screenshot (519)" src="https://github.com/user-attachments/assets/9d276877-f93f-4e7b-a101-a913bfbded96" /> # 💳 Banking REST API
 
 ## 📌 Project Overview
 This project is a **Banking REST API** built using **Spring Boot**.  
@@ -63,7 +63,6 @@ git clone https://github.com/DnyaneshwariGarole/BankingRESTAPI.git
 cd BankingRESTAPI
 mvn spring-boot:run
 
-<img width="1898" height="966" alt="Screenshot (519)" src="https://github.com/user-attachments/assets/9d276877-f93f-4e7b-a101-a913bfbded96" />
 
 
 
